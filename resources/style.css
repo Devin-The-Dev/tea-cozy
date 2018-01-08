@@ -1,0 +1,143 @@
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+/*header*/
+header {
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  z-index: 2;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name {
+  display: inline-block;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+
+.navigation{
+  display: inline-block;
+  text-decoration: underline;
+  padding-right: 10px;
+}
+
+/*Box One*/
+.jar {
+  text-align: center;
+  height: 700px;
+  width: 1200px;
+  padding-top: 69px;
+}
+
+.jar-image {
+  text-align: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url(../resources/images/img-mission-background.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+}
+
+/*Box Two*/
+.tea {
+  width: 1000px;
+  text-align: center;
+}
+
+.selection {
+  width: 1000px;
+  position: relative;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.fall {
+  background-image: url(../resources/images/img-berryblitz.jpg);
+  background-size: contain;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.spiced {
+  background-image: url(../resources/images/img-spiced-rum.jpg);
+  background-size: contain;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.seasonal {
+  background-image: url(../resources/images/img-donut.jpg);
+  background-size: contain;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.myrtle {
+  background-image: url(../resources/images/img-myrtle-ave.jpg);
+  background-size: contain;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.bedford {
+  background-image: url(../resources/images/img-bedford-bizarre.jpg);
+  background-size: contain;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+/*Box Three*/
+.locations {
+  text-align: center;
+  height: 500px;
+  width: 1200px;
+  background-image: url(../resources/images/img-locations-background.jpg);
+  position: relative;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+#locations {
+  width: 100%;
+}
+
+.place {
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 1;
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+}
+
+/*Box Four*/
+.contact {
+  text-align: center;
+  height: 200px;
+}
+
+footer {
+  padding-left: 20px;
+}
